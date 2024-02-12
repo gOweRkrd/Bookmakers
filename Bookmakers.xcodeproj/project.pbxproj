@@ -8,17 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		502D3F962B7A07A000BD5E46 /* BookmakersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3F952B7A07A000BD5E46 /* BookmakersApp.swift */; };
-		502D3F982B7A07A000BD5E46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3F972B7A07A000BD5E46 /* ContentView.swift */; };
+		502D3F982B7A07A000BD5E46 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3F972B7A07A000BD5E46 /* MainView.swift */; };
 		502D3F9A2B7A07A200BD5E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502D3F992B7A07A200BD5E46 /* Assets.xcassets */; };
 		502D3F9D2B7A07A200BD5E46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502D3F9C2B7A07A200BD5E46 /* Preview Assets.xcassets */; };
+		502D3FA92B7A1B7200BD5E46 /* BetttingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FA82B7A1B7200BD5E46 /* BetttingModel.swift */; };
+		502D3FAB2B7A1B9400BD5E46 /* BettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FAA2B7A1B9400BD5E46 /* BettingView.swift */; };
+		502D3FAD2B7A1C4500BD5E46 /* BettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FAC2B7A1C4500BD5E46 /* BettingViewModel.swift */; };
+		502D3FB32B7A2F8300BD5E46 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FB22B7A2F8300BD5E46 /* UIColor+Extension.swift */; };
+		502D3FB52B7A2F9100BD5E46 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FB42B7A2F9100BD5E46 /* View+Extension.swift */; };
+		502D3FB72B7A2F9C00BD5E46 /* ContentSizeCategory+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FB62B7A2F9C00BD5E46 /* ContentSizeCategory+Extension.swift */; };
+		502D3FB92B7A2FAC00BD5E46 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FB82B7A2FAC00BD5E46 /* R.swift */; };
+		502D3FBF2B7A2FCA00BD5E46 /* SFProDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBB2B7A2FCA00BD5E46 /* SFProDisplay-Medium.otf */; };
+		502D3FC02B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBC2B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf */; };
+		502D3FC12B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBD2B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf */; };
+		502D3FC22B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBE2B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		502D3F922B7A07A000BD5E46 /* Bookmakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookmakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		502D3F952B7A07A000BD5E46 /* BookmakersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmakersApp.swift; sourceTree = "<group>"; };
-		502D3F972B7A07A000BD5E46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		502D3F972B7A07A000BD5E46 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		502D3F992B7A07A200BD5E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502D3F9C2B7A07A200BD5E46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		502D3FA82B7A1B7200BD5E46 /* BetttingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetttingModel.swift; sourceTree = "<group>"; };
+		502D3FAA2B7A1B9400BD5E46 /* BettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingView.swift; sourceTree = "<group>"; };
+		502D3FAC2B7A1C4500BD5E46 /* BettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingViewModel.swift; sourceTree = "<group>"; };
+		502D3FB22B7A2F8300BD5E46 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		502D3FB42B7A2F9100BD5E46 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		502D3FB62B7A2F9C00BD5E46 /* ContentSizeCategory+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentSizeCategory+Extension.swift"; sourceTree = "<group>"; };
+		502D3FB82B7A2FAC00BD5E46 /* R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
+		502D3FBB2B7A2FCA00BD5E46 /* SFProDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.otf"; sourceTree = "<group>"; };
+		502D3FBC2B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.otf"; sourceTree = "<group>"; };
+		502D3FBD2B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProRounded-Semibold.otf"; sourceTree = "<group>"; };
+		502D3FBE2B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
+		502D3FC32B7A34E800BD5E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +74,11 @@
 		502D3F942B7A07A000BD5E46 /* Bookmakers */ = {
 			isa = PBXGroup;
 			children = (
+				502D3FC32B7A34E800BD5E46 /* Info.plist */,
 				502D3FA52B7A090800BD5E46 /* App */,
 				502D3FA62B7A094D00BD5E46 /* Modules */,
 				502D3FA72B7A096200BD5E46 /* Resources */,
+				502D3FB12B7A2F7000BD5E46 /* Extensions */,
 				502D3F9B2B7A07A200BD5E46 /* Preview Content */,
 			);
 			path = Bookmakers;
@@ -78,7 +103,8 @@
 		502D3FA62B7A094D00BD5E46 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				502D3F972B7A07A000BD5E46 /* ContentView.swift */,
+				502D3FAE2B7A2E2C00BD5E46 /* BettingTable */,
+				502D3FAC2B7A1C4500BD5E46 /* BettingViewModel.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -86,9 +112,58 @@
 		502D3FA72B7A096200BD5E46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				502D3FBA2B7A2FCA00BD5E46 /* Fonts */,
+				502D3FB82B7A2FAC00BD5E46 /* R.swift */,
 				502D3F992B7A07A200BD5E46 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		502D3FAE2B7A2E2C00BD5E46 /* BettingTable */ = {
+			isa = PBXGroup;
+			children = (
+				502D3FAF2B7A2EA800BD5E46 /* View */,
+				502D3FB02B7A2EBA00BD5E46 /* Model */,
+			);
+			path = BettingTable;
+			sourceTree = "<group>";
+		};
+		502D3FAF2B7A2EA800BD5E46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				502D3F972B7A07A000BD5E46 /* MainView.swift */,
+				502D3FAA2B7A1B9400BD5E46 /* BettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		502D3FB02B7A2EBA00BD5E46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				502D3FA82B7A1B7200BD5E46 /* BetttingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		502D3FB12B7A2F7000BD5E46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				502D3FB22B7A2F8300BD5E46 /* UIColor+Extension.swift */,
+				502D3FB42B7A2F9100BD5E46 /* View+Extension.swift */,
+				502D3FB62B7A2F9C00BD5E46 /* ContentSizeCategory+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		502D3FBA2B7A2FCA00BD5E46 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				502D3FBB2B7A2FCA00BD5E46 /* SFProDisplay-Medium.otf */,
+				502D3FBC2B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf */,
+				502D3FBD2B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf */,
+				502D3FBE2B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				502D3F9D2B7A07A200BD5E46 /* Preview Assets.xcassets in Resources */,
+				502D3FC12B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf in Resources */,
+				502D3FC22B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf in Resources */,
 				502D3F9A2B7A07A200BD5E46 /* Assets.xcassets in Resources */,
+				502D3FC02B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf in Resources */,
+				502D3FBF2B7A2FCA00BD5E46 /* SFProDisplay-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				502D3F982B7A07A000BD5E46 /* ContentView.swift in Sources */,
+				502D3FAD2B7A1C4500BD5E46 /* BettingViewModel.swift in Sources */,
+				502D3FA92B7A1B7200BD5E46 /* BetttingModel.swift in Sources */,
+				502D3FB72B7A2F9C00BD5E46 /* ContentSizeCategory+Extension.swift in Sources */,
+				502D3FB92B7A2FAC00BD5E46 /* R.swift in Sources */,
+				502D3FAB2B7A1B9400BD5E46 /* BettingView.swift in Sources */,
+				502D3FB32B7A2F8300BD5E46 /* UIColor+Extension.swift in Sources */,
+				502D3F982B7A07A000BD5E46 /* MainView.swift in Sources */,
+				502D3FB52B7A2F9100BD5E46 /* View+Extension.swift in Sources */,
 				502D3F962B7A07A000BD5E46 /* BookmakersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +384,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bookmakers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookmakers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,6 +413,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bookmakers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookmakers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
