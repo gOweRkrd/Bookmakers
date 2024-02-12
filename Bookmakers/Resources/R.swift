@@ -2,12 +2,20 @@ import SwiftUI
 
 enum StringResources {
     
-    enum BettingView {
+    enum CoefficientView {
         static let averageСoefficients = "Cредние коэффициенты"
         static let winningСoefficient = "Выйгрыш"
         static let losingСoefficient = "Пройгрыш"
         static let returnСoefficient = "Возврат"
-
+    }
+    
+    enum MainView {
+        static let title = "Рейтинг Букмекеров"
+    }
+    
+    enum BettingView {
+        static let winLoseBookmakers = "Выйгрыши/ пройгрыши по букмекером"
+        static let bettings = "cтавок"
     }
     
     enum Colors {

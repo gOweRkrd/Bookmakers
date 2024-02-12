@@ -11,8 +11,8 @@
 		502D3F982B7A07A000BD5E46 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3F972B7A07A000BD5E46 /* MainView.swift */; };
 		502D3F9A2B7A07A200BD5E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502D3F992B7A07A200BD5E46 /* Assets.xcassets */; };
 		502D3F9D2B7A07A200BD5E46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502D3F9C2B7A07A200BD5E46 /* Preview Assets.xcassets */; };
-		502D3FA92B7A1B7200BD5E46 /* BetttingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FA82B7A1B7200BD5E46 /* BetttingModel.swift */; };
-		502D3FAB2B7A1B9400BD5E46 /* BettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FAA2B7A1B9400BD5E46 /* BettingView.swift */; };
+		502D3FA92B7A1B7200BD5E46 /* BettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FA82B7A1B7200BD5E46 /* BettingModel.swift */; };
+		502D3FAB2B7A1B9400BD5E46 /* СoefficientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FAA2B7A1B9400BD5E46 /* СoefficientView.swift */; };
 		502D3FAD2B7A1C4500BD5E46 /* BettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FAC2B7A1C4500BD5E46 /* BettingViewModel.swift */; };
 		502D3FB32B7A2F8300BD5E46 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FB22B7A2F8300BD5E46 /* UIColor+Extension.swift */; };
 		502D3FB52B7A2F9100BD5E46 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FB42B7A2F9100BD5E46 /* View+Extension.swift */; };
@@ -22,6 +22,7 @@
 		502D3FC02B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBC2B7A2FCA00BD5E46 /* SFProDisplay-Bold.otf */; };
 		502D3FC12B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBD2B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf */; };
 		502D3FC22B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 502D3FBE2B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf */; };
+		502D3FC72B7A42FF00BD5E46 /* BettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D3FC62B7A42FF00BD5E46 /* BettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,8 @@
 		502D3F972B7A07A000BD5E46 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		502D3F992B7A07A200BD5E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502D3F9C2B7A07A200BD5E46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		502D3FA82B7A1B7200BD5E46 /* BetttingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetttingModel.swift; sourceTree = "<group>"; };
-		502D3FAA2B7A1B9400BD5E46 /* BettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingView.swift; sourceTree = "<group>"; };
+		502D3FA82B7A1B7200BD5E46 /* BettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingModel.swift; sourceTree = "<group>"; };
+		502D3FAA2B7A1B9400BD5E46 /* СoefficientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СoefficientView.swift"; sourceTree = "<group>"; };
 		502D3FAC2B7A1C4500BD5E46 /* BettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingViewModel.swift; sourceTree = "<group>"; };
 		502D3FB22B7A2F8300BD5E46 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		502D3FB42B7A2F9100BD5E46 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		502D3FBD2B7A2FCA00BD5E46 /* SFProRounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProRounded-Semibold.otf"; sourceTree = "<group>"; };
 		502D3FBE2B7A2FCA00BD5E46 /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
 		502D3FC32B7A34E800BD5E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		502D3FC62B7A42FF00BD5E46 /* BettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				502D3F972B7A07A000BD5E46 /* MainView.swift */,
-				502D3FAA2B7A1B9400BD5E46 /* BettingView.swift */,
+				502D3FAA2B7A1B9400BD5E46 /* СoefficientView.swift */,
+				502D3FC62B7A42FF00BD5E46 /* BettingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -140,7 +143,7 @@
 		502D3FB02B7A2EBA00BD5E46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				502D3FA82B7A1B7200BD5E46 /* BetttingModel.swift */,
+				502D3FA82B7A1B7200BD5E46 /* BettingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,14 +244,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				502D3FAD2B7A1C4500BD5E46 /* BettingViewModel.swift in Sources */,
-				502D3FA92B7A1B7200BD5E46 /* BetttingModel.swift in Sources */,
+				502D3FA92B7A1B7200BD5E46 /* BettingModel.swift in Sources */,
 				502D3FB72B7A2F9C00BD5E46 /* ContentSizeCategory+Extension.swift in Sources */,
 				502D3FB92B7A2FAC00BD5E46 /* R.swift in Sources */,
-				502D3FAB2B7A1B9400BD5E46 /* BettingView.swift in Sources */,
+				502D3FAB2B7A1B9400BD5E46 /* СoefficientView.swift in Sources */,
 				502D3FB32B7A2F8300BD5E46 /* UIColor+Extension.swift in Sources */,
 				502D3F982B7A07A000BD5E46 /* MainView.swift in Sources */,
 				502D3FB52B7A2F9100BD5E46 /* View+Extension.swift in Sources */,
 				502D3F962B7A07A000BD5E46 /* BookmakersApp.swift in Sources */,
+				502D3FC72B7A42FF00BD5E46 /* BettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
