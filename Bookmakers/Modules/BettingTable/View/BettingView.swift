@@ -28,7 +28,7 @@ private extension BettingView {
     
     var numberOfbets: some View {
         HStack {
-            Image("Betting")
+            Image(.betting)
                 .resizable()
                 .frame(width: 100, height: 20)
             totalBetting
@@ -84,13 +84,13 @@ private extension BettingView {
                     totalBettingLosingPercent
                         .offset(x: winWidth + 5, y: 23)
                     totalBettingReturnPercent
-                        .offset(x: geometry.size.width - winWidth + 25, y: 6)
+                        .offset(x: (winWidth + loseWidth + returnWidth) - 50, y: 6)
                 }
             }
             .frame(height: 10)
         }
         .padding([.top, .horizontal], 10)
-        .padding(.bottom ,35)
+        .padding(.bottom, 35)
     }
 }
 
@@ -98,7 +98,7 @@ private extension BettingView {
 private extension BettingView {
     var totalBettingWinPercent: some View {
         HStack(spacing: 5) {
-            Text("\(Int(viewModel.coefficientModel.winBetting))")
+            Text("\(Int(viewModel.bettingModel.winBetting))")
                 .customFont(SFProDisplay.medium, category: .small)
                 .foregroundColor(Color(R.Colors.black))
             Text("(\(Int(viewModel.winPercentage))%)")
@@ -108,12 +108,11 @@ private extension BettingView {
     }
 }
 
-
 // MARK: - Lose betting
 private extension BettingView {
     var totalBettingLosingPercent: some View {
         HStack(spacing: 5) {
-            Text("\(Int(viewModel.coefficientModel.loseBetting))")
+            Text("\(Int(viewModel.bettingModel.loseBetting))")
                 .customFont(SFProDisplay.medium, category: .small)
                 .foregroundColor(Color(R.Colors.black))
             Text("(\(Int(viewModel.losePercentage))%)")
@@ -126,8 +125,8 @@ private extension BettingView {
 // MARK: - Return betting
 private extension BettingView {
     var totalBettingReturnPercent: some View {
-        HStack(spacing: 5)  {
-            Text("\(Int(viewModel.coefficientModel.refundBetting))")
+        HStack(spacing: 5) {
+            Text("\(Int(viewModel.bettingModel.refundBetting))")
                 .customFont(SFProDisplay.medium, category: .small)
                 .foregroundColor(Color(R.Colors.black))
             Text("(\(Int(viewModel.refundPercentage))%)")
@@ -136,7 +135,6 @@ private extension BettingView {
         }
     }
 }
-
 
 struct BettingView_Previews: PreviewProvider {
     static var previews: some View {

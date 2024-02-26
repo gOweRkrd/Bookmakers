@@ -8,12 +8,28 @@ struct СoefficientView: View {
         
         VStack {
             averageСoefficients
-            winningСoefficient
-            losingСoefficient
-            returnСoefficient
+            coefficientBar(
+                value: viewModel.bettingModel.win, 
+                color: Color(R.Colors.green), 
+                label: R.CoefficientView.winningСoefficient
+            )
+            coefficientBar(
+                value: viewModel.bettingModel.lose, 
+                color: Color(R.Colors.red), 
+                label: R.CoefficientView.losingСoefficient
+            )
+            coefficientBar(
+                value: viewModel.bettingModel.refund, 
+                color: Color(R.Colors.gray), 
+                label: R.CoefficientView.returnСoefficient
+            )
         }
         .border(Color(R.Colors.black))
     }
+}
+
+// MARK: - Ui
+private extension СoefficientView {
     
     var averageСoefficients: some View {
         Text(R.CoefficientView.averageСoefficients)
@@ -22,86 +38,30 @@ struct СoefficientView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding([.top, .leading], 10)
     }
-}
-
-// MARK: - The winning coefficient
-private extension СoefficientView {
-    var winningСoefficient: some View {
+    
+    func coefficientBar(value: Double, color: Color, label: String) -> some View {
         HStack {
             ZStack(alignment: .leading) {
                 Rectangle()
                     .fill(Color(R.Colors.lightGray))
                     .frame(width: 200, height: 10)
                 Rectangle()
-                    .fill(Color(R.Colors.green))
-                    .frame(width: CGFloat((viewModel.coefficientModel.win / 10) * 200), height: 10)
+                    .fill(color)
+                    .frame(width: CGFloat((value / 10) * 200), height: 10)
             }
             Spacer()
-            Text(R.CoefficientView.winningСoefficient)
-                .customFont(SFProDisplay.medium, category: .small)
-                .foregroundColor(Color(R.Colors.lightGray))
-                .padding(.leading ,5)
-            Spacer()
-            Text(String(format: "%.2f", viewModel.coefficientModel.win))
-                .customFont(SFProDisplay.medium, category: .small)
-                .foregroundColor(Color(R.Colors.black))
-        }
-        .padding(.horizontal, 10)
-    }
-}
-
-// MARK: - The losing coefficient
-private extension СoefficientView {
-    var losingСoefficient: some View {
-        HStack {
-            ZStack(alignment: .leading) {
-                Rectangle()
-                    .fill(Color(UIColor.systemGray5))
-                    .frame(width: 200, height: 10)
-                Rectangle()
-                    .fill(Color(R.Colors.red))
-                    .frame(width: CGFloat((viewModel.coefficientModel.lose / 10) * 200), height: 10)
-            }
-            Spacer()
-            Text(R.CoefficientView.losingСoefficient)
+            Text(label)
                 .customFont(SFProDisplay.medium, category: .extraSmall)
                 .foregroundColor(Color(R.Colors.lightGray))
-                .padding(.leading ,5)
+                .padding(.leading, 5)
             Spacer()
-            Text(String(format: "%.2f", viewModel.coefficientModel.lose))
-                .customFont(SFProDisplay.medium, category: .small)
-                .foregroundColor(Color(R.Colors.black))
-        }
-        .padding(.horizontal, 10)
-    }
-}
-
-// MARK: - The return coefficient
-private extension СoefficientView {
-    var returnСoefficient: some View {
-        HStack {
-            ZStack(alignment: .leading) {
-                Rectangle()
-                    .fill(Color(R.Colors.lightGray))
-                    .frame(width: 200, height: 10)
-                Rectangle()
-                    .fill(Color(R.Colors.gray))
-                    .frame(width: CGFloat((viewModel.coefficientModel.refund / 10) * 200), height: 10)
-            }
-            Spacer()
-            Text(R.CoefficientView.returnСoefficient)
-                .customFont(SFProDisplay.medium, category: .small)
-                .foregroundColor(Color(R.Colors.lightGray))
-                .padding(.leading ,5)
-            Spacer()
-            Text(String(format: "%.2f", viewModel.coefficientModel.refund))
+            Text(String(format: "%.2f", value))
                 .customFont(SFProDisplay.medium, category: .small)
                 .foregroundColor(Color(R.Colors.black))
         }
         .padding([.horizontal, .bottom], 10)
     }
 }
-
 
 struct BettingRow_Previews: PreviewProvider {
     static var previews: some View {

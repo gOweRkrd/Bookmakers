@@ -8,4 +8,3 @@ struct BettingModel: Hashable {
     var loseBetting: Double
     var refundBetting: Double
 }
-

@@ -1,10 +1,3 @@
-//
-//  BookmakersApp.swift
-//  Bookmakers
-//
-//  Created by Александр Косяков on 12.02.2024.
-//
-
 import SwiftUI
 
 @main
